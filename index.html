@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="media-queries.css">
+
+  <script type="module" src="index.js" defer></script>
+
+  <title>Etch a Sketch</title>
+</head>
+<body>
+  
+  <h1 class="title" >Etch a Sketch Game</h1>
+  
+  <main class="main-container">
+
+    <div id="sketch"></div>
+
+    <section class="options">
+      <div id="scales">
+        <button data-scale="sketch-16-16" class="btn">16 * 16</button>
+        <button data-scale="sketch-32-32" class="btn">32 * 32</button>
+        <button data-scale="sketch-40-40" class="btn">40 * 40</button>
+      </div>
+
+      <div id="modes">
+        <button class="btn" data-mode="eraser">Eraser</button>
+        <button class="btn" data-mode="draw">Draw</button>
+        <button class="btn" id="clear-sketch">Clear Sketch</button>
+        <button class="btn" id="show-grid">Togglee-grid</button>
+      </div>
+      
+      <div class="colors">
+        <input id="color-pen" type="color" class="color-picker">
+        <input value="#FFFFFF" id="color-background" type="color" class="color-picker">
+      </div>      
+  
+      <div id="color-palette">  
+      </div>
+    </section>
+
+
+    </section>
+  </main>
+
+</body>
+</html>
